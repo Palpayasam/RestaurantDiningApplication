@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const Product = require("../models/Product");
-const Order = require("../models/Order");
+const Order = require("../models/order");
 const Session = require("../models/Session");
 const { getIDandCost } = require("./product");
 const Table = require("../helper/helper_table");
